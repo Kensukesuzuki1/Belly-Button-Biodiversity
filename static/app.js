@@ -38,7 +38,7 @@ function plotBubble(sample){
         marker: {
           size: sample['sample_values'],
           color: sample['otu_ids'],
-          colorscale: 'Viridis',
+          colorscale: 'tealgrn',
         }
       }];;
       
